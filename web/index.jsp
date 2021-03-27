@@ -5,7 +5,8 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="controller.resultadoMostrado"%>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,12 +14,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="resultadoMostrado" method="post"> 
-            <label>Base: </label> <br>
-            <input type="number" name="valor1"> <br>
-            <label>Altura: </label> <br>
-            <input type="number" name="valor2"> <br>
-            <button type="submit">Continuar</button> 
+        <h1>Actividad 4 (Actividad 7): Servlets</h1>
+        
+        <form action="calculadito.jsp" method="post"> 
+            <input type="text" nombre="nombre" id="input-name" placeholder="Ingrese su nombre">
+            <button type="Aceptar" id="boton">Iniciar</button>
+            <button type="button" id="guardar">Guardar</button>
         </form>
+        
+        <div id="result"></div>
+        <script src="foldersito/formulario.js"></script>
     </body>
 </html>

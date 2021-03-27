@@ -21,6 +21,11 @@
             %>
             <p>Area: <%=ResultadoArea%></p> 
             <p>Perimetro: <%=ResultadoPerimetro%></p>
+            
+            <a href="calculadito.jsp">
+                
+                <button type="button">atras</button>
+            </a>
     </body>
 </html>
 
